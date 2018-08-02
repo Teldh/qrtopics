@@ -1,0 +1,55 @@
+<head><style>
+ body.guide {padding:15; background-color:#FBFBFB;}
+ h4		{color:#2200A1; font-size:95%; font-weight: bold;}
+ p		{text-align:justify;}
+ ul		{line-height: 200%;}
+ table	{margin-left:50px; border:3px none; border-radius: 5px; padding:20; margin-right:50px; background-color:#FFFFFF;}
+</style></head>
+<body class="guide">
+<h2>Guida per il docente</h2>
+<p>Una volta creato il corso indicando un numero n di argomenti, viene creato automaticamente un quiz composto da n domande, collegate agli argomenti del corso tramite punteggio.</p>
+<p>Ciascuna domanda regola la visualizzazione da parte dello studente dell'argomento ad essa collegata.</p>
+<p><b>Attenzione: </b>Se viene rimosso il quiz creato in automatico ricreare il corso dall'inizio.</p><br>
+<table><tbody><tr><td>
+<p><a href="#conf">Configurazione iniziale</a></p>
+<p><a href="#addt">Aggiunta di argomenti al corso</a></p>
+<p><a href="#delt">Rimozione di argomenti dal corso</a></p>
+<p><a href="#modq">Aggiunta/rimozione di domande al quiz</a></p>
+</td></tr></tbody></table>
+<hr><p><br></p>
+<a name="conf"><h3>Configurazione iniziale</h3></a>
+<p>Una volta creato il corso il docente può:
+</p><ul>
+<li>Personalizzare gli aromenti creati, modificandone il nome e aggiungendo contenuti e attività.</li>
+<li>Personalizzare le domande del quiz, facendo attenzione a <strong><u>non modificarne</u></strong> i punteggi.</li>
+<a name="points"><p><b>Nota: </b>Fosse necessario riassegnare manualmente i punteggi seguire lo schema:</p></a>
+<ul>
+<li>Domanda collegata all'argomento 1  &#x2794  2<sup>0</sup> pts</li>
+<li>Domanda collegata all'argomento 2  &#x2794  2<sup>1</sup> pts</li>
+<li>Domanda collegata all'argomento 3  &#x2794  2<sup>2</sup> pts</li>
+<li>ecc..</li>
+</ul></ul>
+<hr><p><br></p>
+<a name="addt"><h3>Aggiunta di argomenti al corso</h3></a>
+<h4><li>Se il corso non è ancora stato presentato agli studenti o nessuno degli studenti ha ancora tentato il quiz</li></h4>
+<p>L'aggiunta di un argomento comporta l'inserimento automatico di una domanda collegata ad esso tramite il punteggio</p>
+<p>Risulta dunque necessario personalizzare la nuova domanda creata</p>
+<h4><li>Se il corso è stato presentato agli studenti e esistono tentativi del quiz</li></h4>
+<p>Il nuovo argomento non viene collegato al quiz e risulta visibile a tutti gli studenti</p>
+<hr><p><br></p>
+<a name="delt"><h3>Rimozione di argomenti dal corso</h3></a>
+<h4><li>Se il corso non è ancora stato presentato agli studenti o nessuno degli studenti ha ancora tentato il quiz</li></h4>
+<p>La rimozione di un argomento comporta la cancellazione di una domanda dal quiz</p>
+<p>In seguito alla rimozione dell'argomento è consigliato verificare il mantenimento del collegamento domanda-argomento per tutte le domande. <a href="#points">Vedi schema</a></p>
+<h4><li>Se il corso è stato presentato agli studenti e esistono tentativi del quiz</li></h4>
+<p>È possibile rimuovere soltanto gli argomenti non collegati al quiz</p>
+<p><b>Attenzione</b><br>Non rimuovere argomenti collegati al quiz: l'argomento viene cancellato ma non viene cancellata la domanda del quiz</p>
+<hr><p><br></p>
+<a name="modq"><h3>Aggiunta/rimozione di domande al quiz</h3></a>
+<p>Il formato corso è topics-depending quindi il comportamento è il seguente:</p>
+<h4><li>Aggiunta</li></h4>
+<p>La domanda una volta salvata verrà automaticamente rimossa</p>
+<h4><li>Rimozione</li></h4>
+<p>La domanda viene rimossa, ma verrà automaticamente generata una nuova domanda di default</p>
+<p><b>Nota:</b> Se esistono già tentativi al quiz Moodle non permette la modifica a nessuna domanda</p></a>
+<hr></body>
